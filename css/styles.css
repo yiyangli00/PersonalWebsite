@@ -1,0 +1,181 @@
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+
+#cover_image{
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.container-fluid{
+    padding: 13% 11%;
+}
+
+.row{
+    margin-top: 2rem;
+}
+
+.navbar{
+    padding: 1rem;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.downloadBtn{
+    margin: 3% 3% 5% 0;
+    transition-duration: 0.4s;
+    border: none;
+}
+
+.downloadBtn:hover{
+    background-color: gold;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+#second_page{
+    background-color:#383838 ;
+    color: white;
+    line-height: 2;
+    text-align: center;
+}
+
+#self_image{
+    width: 90%;
+    margin-bottom: 3rem;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.about_me{
+    text-align: left;
+    padding-left: 40px;
+}
+
+.second_container{
+    padding-top: 7rem;
+}
+
+ul{
+    padding: 0;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+}
+
+.third_container{
+    text-align: center;
+}
+
+.third_row{ 
+    position: relative;
+    top: 2rem;
+    margin-top: 2rem;
+}
+
+.third_row img{
+    transition-duration: 0.3s;
+    border-radius:10px;
+}
+
+.third_row img:hover{
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+#third_page{
+    margin: 7rem;
+}
+
+#fourth_page{
+    background-color:#383838;
+    color: white;
+    line-height: 2;
+    text-align: center;
+}
+
+.div_1,.div_2,.div_3{
+    border-left: 0.3px solid gray;
+    border-right: 0.3px solid gray;
+}
+
+.fourth_container h1{
+    margin-top: 1rem;
+}
+
+.fourth_row img{
+    margin-bottom: 25px;
+    width: 40px;
+    filter: invert(1);
+}
+
+.fifth_container{
+    padding: 50px;
+    padding-top: 56px;
+    text-align: center;
+    color: rgb(171, 171, 171);
+    background-color: #1d1f20;
+}
+footer img{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    width: 23px;
+    display: inline;
+    filter: invert(1);
+}
+
+a{
+    text-decoration: underline;
+    color: rgb(192, 192, 192);
+}
+
+a:hover{
+    text-decoration: none;
+    color: gold;
+}
+
+.navbar a{
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    text-decoration:line-through;
+}
+
+.project img:hover{
+    opacity: 0.5;
+}
+
+.modal-body{
+    text-align: left;
+}
+.modal-body a{
+    color: blue;
+}
+
+.modal-body a:hover{
+    color: gold;
+    text-decoration: underline;
+}
+
+#Modal1{
+    margin:160px auto;
+}
+
+#Modal2{
+    margin:160px auto;
+}
+
+#Modal3{
+    margin:160px auto;
+}
+
+#Modal4{
+    margin:160px auto;
+}
+
+.carousel-inner img{
+    margin: auto;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    filter: invert(1);
+}

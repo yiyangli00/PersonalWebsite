@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Yiyang Li | Frontend Developer</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="images/favicon.png">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <section id="navbar">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"
+                    aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">WORK</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="d-flex align-items-center">
+                    <a class="navbar-brand" href="https://www.linkedin.com/in/yiyang-li-658967252/">
+                        <img src="images/link.png" width="23" height="23" alt="">
+                    </a>
+                    <a class="navbar-brand" href="https://www.instagram.com/elena_yiyangli/">
+                        <img src="images/ins.png" width="23" height="23" alt="">
+                    </a>
+                    <a class="navbar-brand" href="https://www.facebook.com/yiyang.li.3538">
+                        <img src="images/fb.png" width="23" height="23" alt="">
+                    </a>
+                </div>
+            </nav>
+        </section>
+
+        <section id="first_page">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="self_intro">
+                        <h1>"Hi. I'm Yiyang Li.<br>A Frontend Developer."</h1>
+                        <p>Dedicated to create better functionality, interactiveness and design.</p>
+                    </div>
+                    <button type="button" class="btn btn-dark btn-lg downloadBtn">Download my CV</button>
+                </div>
+                <div class="col-lg-6 cover_image_div">
+                    <img id="cover_image" src="images/deco.png" alt="cover image">
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section id="second_page">
+        <div class="container-fluid second_container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img id="self_image" src="images/self_image.jpg" alt="self image">
+                </div>
+                <div class="col-lg-6 about_me">
+                    <h1>About Me</h1>
+                    <p>Hi, my name is Yiyang. I’m a 1st year Master of Engineering student at UCLA, graduating in Fall
+                        2023. I have rich experience in both frontend and backend and have a strong interest in frontend
+                        development. If you have any new grad opportunities or summer interns, feel free to reach me
+                        from the contact page.
+                    </p>
+                    <h2>My Skills:</h2>
+                    <ul>
+                        <li>HTML&CSS</li>
+                        <li>JavaScript/JQuery</li>
+                        <li>Responsive Design/Bootstrap</li>
+                        <li>Frameworks/React</li>
+                        <li>Version Control/Git</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="third_page">
+        <div class="container-fliud third_container">
+            <h1>See My Works</h1>
+            <div class="row third_row">
+                <div class="col-lg-6 col-sm-12 col-md-6 project project_1 mt-5 mb-5">
+                    <img src="https://via.placeholder.com/300" alt="" data-toggle="modal" data-target="#Modal1">
+                </div>
+                <div class="col-lg-6 col-sm-12 col-md-6 project project_2 mt-5 mb-5">
+                    <img src="https://via.placeholder.com/300" alt="" data-toggle="modal" data-target="#Modal2">
+                </div>
+                <div class="col-lg-6 col-sm-12 col-md-6 project project_3 mt-5 mb-5">
+                    <img src="https://via.placeholder.com/300" alt="" data-toggle="modal" data-target="#Modal3">
+                </div>
+                <div class="col-lg-6 col-sm-12 col-md-6 project project_4 mt-5 mb-5">
+                    <img src="https://via.placeholder.com/300" alt="" data-toggle="modal" data-target="#Modal4">
+                </div>
+            </div>
+            <!-- Modal 1 -->
+            <div class="modal fade" id="Modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Project 1</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Skills:</p>
+                            <p>URL: <a href="#"> Link to the Project</a></p>
+                            <div id="carousel1" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carousel1" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carousel1" data-slide-to="1"></li>
+                                    <li data-target="#carousel1" data-slide-to="2"></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img class="d-block w-90" src="https://via.placeholder.com/300"
+                                            alt="First slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-90" src="https://via.placeholder.com/300"
+                                            alt="Second slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-90" src="https://via.placeholder.com/300"
+                                            alt="Third slide">
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carousel1" role="button"
+                                    data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carousel1" role="button"
+                                    data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal 2 -->
+            <div class="modal fade" id="Modal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Project 2</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Skills:</p>
+                            <p>URL: <a href="#"> Link to the Project</a></p>
+                            <div id="carousel2" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carousel2" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carousel2" data-slide-to="1"></li>
+                                    <li data-target="#carousel2" data-slide-to="2"></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img class="d-block w-90" src="https://via.placeholder.com/300"
+                                            alt="First slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-90" src="https://via.placeholder.com/300"
+                                            alt="Second slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-90" src="https://via.placeholder.com/300"
+                                            alt="Third slide">
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carousel2" role="button"
+                                    data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carousel2" role="button"
+                                    data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal 3 -->
+            <div class="modal fade" id="Modal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Project 3</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Skills:</p>
+                            <p>URL: <a href="#"> Link to the Project</a></p>
+                            <div id="carousel3" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carousel3" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carousel3" data-slide-to="1"></li>
+                                    <li data-target="#carousel3" data-slide-to="2"></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img class="d-block w-90" src="https://via.placeholder.com/300"
+                                            alt="First slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-90" src="https://via.placeholder.com/300"
+                                            alt="Second slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-90" src="https://via.placeholder.com/300"
+                                            alt="Third slide">
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carousel3" role="button"
+                                    data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carousel3" role="button"
+                                    data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal 4 -->
+            <div class="modal fade" id="Modal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Project 4</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Skills:</p>
+                            <p>URL: <a href="#"> Link to the Project</a></p>
+                            <div id="carousel4" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carousel4" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carousel4" data-slide-to="1"></li>
+                                    <li data-target="#carousel4" data-slide-to="2"></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img class="d-block w-90" src="https://via.placeholder.com/300"
+                                            alt="First slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-90" src="https://via.placeholder.com/300"
+                                            alt="Second slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-90" src="https://via.placeholder.com/300"
+                                            alt="Third slide">
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carousel4" role="button"
+                                    data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carousel4" role="button"
+                                    data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="fourth_page">
+        <div class="container-fluid fourth_container">
+            <h1>Contact Me</h1>
+            <div class="row fourth_row">
+                <div class="col-lg-4 mt-5 div_1">
+                    <img src="images/location.png" alt="">
+                    <h4>LOCATION</h4>
+                    <p>Los Angeles, CA 90024</p>
+                </div>
+                <div class="col-lg-4 mt-5 div_2">
+                    <img src="images/telephone.png" alt="">
+                    <h4>CONTACT NUMBER</h4>
+                    <p>Phone: <a href="tel:+1-585-470-9743">(+1) 585-470-9743</a></p>
+                </div>
+                <div class="col-lg-4 mt-5 div_3">
+                    <img src="images/email.png" alt="">
+                    <h4>EMAIL</h4>
+                    <p><a href="mailto:yiyangli00@g.ucla.edu">yiyangli00@g.ucla.edu</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="footer">
+        <div class="container-fluid fifth_container">
+            <footer>
+                <img src="images/link.png" alt=""><img src="images/ins.png" alt=""><img src="images/fb.png" alt="">
+                <p>Copyright © 2022 <a href="index.html">Yiyang Li</a>. All Rights Reserved.</p>
+            </footer>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.6/dist/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
