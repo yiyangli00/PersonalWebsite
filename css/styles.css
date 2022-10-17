@@ -8,6 +8,7 @@
 }
 
 .container-fluid{
+    margin: 0;
     padding: 13% 11%;
 }
 
@@ -178,4 +179,9 @@ a:hover{
 
 .carousel-control-next-icon, .carousel-control-prev-icon{
     filter: invert(1);
+}
+
+html{
+    margin: 0;
+    padding: 0;
 }
