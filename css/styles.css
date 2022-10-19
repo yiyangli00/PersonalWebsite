@@ -6,6 +6,18 @@ html {
     box-sizing: content-box;
 }
 
+h1,h2,h3,h4,p,li,a{
+    font-family: 'Poppins', sans-serif;
+}
+
+.shortintro{
+    font-family: 'Baskervville', serif;
+}
+
+.largeheading{
+    font-size: 45px;
+}
+
 #cover_image {
     width: 100%;
     margin-top: 1rem;
